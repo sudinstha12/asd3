@@ -1,0 +1,40 @@
+body
+ {
+   font-family: sans-serif;
+   color: #3c3939;
+   background-color: #f1f1f1;
+}
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5)
+}
+.image-container
+{
+	position: relative;
+}
+.info
+{
+	color: #4b4fe2;
+	margin-right: 10px;
+.student-profile
+{
+	width: 400px;
+	margin: auto;
+	background: #fff;
+
+}
+.main-container
+{
+	padding: 20px;
+}
+.Marks
+{
+	background-color: #bdc9ea;
+	border-radius: 16px;
+}
+.GPA
+{
+	padding: 0.1em 16px;
+	border-radius: 16px;
+	text-align: center;
+	color: #fff;
+	background-color: #4b4fe2
+}
