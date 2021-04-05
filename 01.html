@@ -1,45 +1,78 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>hello</title>
-    <link rel="stylesheet" type="text/css" href="1.css">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+   <title> Gallery </title>
+   <style type="text/css">
+      .card {
+         box-shadow: 0 15px 30px rgba(0,0,0,0.30), 0 11px 8px rgba(0,0,0,0.22);
+         width: 100%;
+         box-sizing: border-box;
+         border:2px solid black ;
+         border-radius: 7px;   
+         padding: 20px 0px 20px 0px;     
+      }
+      .card > img {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;        
+         /* or margin: 0 auto */
+         width: 170px;
+         border: 1px solid #ddd;
+         border-radius: 5px;
+         padding: 5px;      
+      }      
+      .hover:hover {
+         box-shadow: 0 18px 36px rgba(0,0,0,0.30), 
+                     0 14px 11px rgba(0,0,0,0.22);
+         width: 50%;
+         height: 50%;
+         transition-duration: 0.5s;
+     
+        } 
+      .captions {
+         font-family: sans-serif;    
+         padding:  4px 4px 4px 4px;  
+         border: 2px solid #395fff ;
+         text-align: center;
+         background: white;  
+         width: 70%;   
+         border-radius: 10px;  
+        }          
+   </style>
 </head>
-
 <body>
-    <div class="student-profile">
-        <div class="image-container">
-            <img src="itachi.jpg" style="width: 100%">
-            <div class="title">
-
-                <h2> SUDIN Shrestha</h2>
-            </div>
-
-
-            <div>
-                <div class="main-container">
-
-                    <p><i class="fa fa-briefcase info" aria-hidden="true"></i>Student of EIC</p>
-                    <p><i class="fa fa-home info" aria-hidden="true"></i>Thankot,Kathmandu</p>
-                    <p><i class="fa fa-graduation-cap info" aria-hidden="true"></i>Grade_11</p>
-                    <p><i class="fa fa-graduation-cap info" aria-hidden="true"></i>Section-E</p>
-                    <p><i class="fa fa-graduation-cap info" aria-hidden="true"></i>Roll.no-43</p>
-                    <p><i class="fa fa-envelope info" aria-hidden="true"></i>sudinstha4@gmail.com</p>
-                    <hr>
-                    <p><b><i class="fa fa-asterisk info" ></i>Academic Progress</b></p>
-                    <p>First Term</p>
-                    <div class="Marks">
-                        <div class="GPA" style=width:70%>3.55
-
-                        </div>
-                        <p>Second Term</p>
-                        <div class="Marks">
-                            <div class="GPA" style=width:75%>3.60
-
-                            </div>
-                            <p>Third Term</p>
-                            <div class="Marks">
-                                <div class="GPA" style=width:80%>3.65
-
-                                </div>
+ <figure class="card">
+      <img src="" class="hover" />
+    <center>  <figcaption class="captions"> result of grade 12 2077</figcaption> </center> 
+      <img src="11.jpg" class="hover" />
+     <center>  <figcaption class="captions">programes</figcaption> </center> 
+      <img src="12.jpg" class="hover" />
+     
+      <img src="13.jpg" class="hover" />
+     > 
+      <img src="14.jpg" class="hover" />
+      
+      <img src="15.jpg" class="hover" />
+     
+      <img src="16.jpg" class="hover" />
+     
+      <img src="17.jpg" class="hover" />
+       <center>  <figcaption class="captions">Online class</figcaption> </center> 
+      <img src="18.jpg" class="hover" />
+    
+      <img src="19.jpg" class="hover" />
+    
+      <img src="20.jpg" class="hover" />
+     <center>  <figcaption class="captions">farewell program</figcaption> </center> 
+      <img src="21.jpg" class="hover" />
+      <img src="22.jpg" class="hover" />
+     
+      
+     <center>  <figcaption class="captions"> BCA </figcaption> </center> 
+     <img src="25.jpg" class="hover" />
+      <img src="23.jpg" class="hover" />
+     
+     
+       </figure> 
+</body>
+</html>
