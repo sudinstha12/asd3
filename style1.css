@@ -1,15 +1,26 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: Century Gothic;
+	font-family:"open sans",sans-serif;
+	box-sizing: border-box;
 }
 
-.header{
-	background-image: url(../itachi.jpg);
-	height: 100vh;
-	background-color: currentColor;
+	body{
+		min-height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #f1f1f1;
 
-}
+	
 
+  *inner-container{
+ 	font-size: 13px;
+ 	color: #545454;
+ 	line-height: 30px;
+ 	text-align: justify;
+ 	margin-bottom: 40px;
+
+ }
 	
 
